@@ -1,5 +1,6 @@
 import { defaultArgs } from "./funciones/defaultArgs";
 import { functionsTs } from "./funciones/functions";
+import { functionType } from "./funciones/functionType";
 import { optionalArgs } from "./funciones/optionalArgs";
 import { requiredArgs } from "./funciones/requiredArgs";
 import "./style.css";
@@ -14,3 +15,5 @@ functionsTs();
 requiredArgs();
 optionalArgs();
 defaultArgs();
+functionType();
+
