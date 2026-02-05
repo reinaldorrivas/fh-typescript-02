@@ -11,7 +11,7 @@ export const functionsTs = (): void => {
 
   console.log("activateBatiSignal:", activateBatiSignal());
 
-  console.log("Tipado de una función: ", typeof activateBatiSignal);
+  console.log("Tipado de una función:", typeof activateBatiSignal);
 
   const heroName = returnName(hero);
 
